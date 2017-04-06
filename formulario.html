@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Cooking Company - Sign-In</title>
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+
+<body>
+	
+	<div class=container-formulario>
+
+	<div class=sign-in-container>
+
+		<h1>Ingresar</h1>
+
+		<div class="cliente-antiguo">
+
+			<h2>Ya soy cliente</h2>
+
+			<form action="pagina.php" method="post">
+			
+				<label for="email">Email</label>  <br>		
+				<input id="email" type="e-mail" name="correo_electronico" value="" required> <br> <br>
+				
+				<label for="password">Password</label> <br>
+				<input type="password" name="contraseña" value="" required>  <br>
+
+				<a href="cambio-pswd.html">Olvidé mi password</a>
+
+				<button type=”submit”>Ingresar</button> <br>
+
+	  		</form>
+	  		
+	  	</div> <!-- termina cliente-antiguo -->
+
+		</div class="cliente-nuevo">
+			<h2>Soy nuevo</h2>
+			<ul>
+				<li>Crear órdenes</li>
+				<li>Registrarse para recibir novedades y promociones</li>
+				<li>Hacer pedidos especiales</li>
+			</ul>
+			<button type=”submit”>Crear cuenta</button> 
+		</div>
+
+	</div> <!-- termina container-sign-in -->
+	
+	</div>
+
+</body>
+
+</html>
