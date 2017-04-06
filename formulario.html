@@ -4,48 +4,64 @@
 <head>
 	<meta charset="utf-8">
 	<title>Cooking Company - Sign-In</title>
-	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">	
 </head>
 
 <body>
 	
 	<div class=container-formulario>
 
-	<div class=sign-in-container>
-
 		<h1>Ingresar</h1>
 
-		<div class="cliente-antiguo">
+		<div class=sign-in-container>
 
-			<h2>Ya soy cliente</h2>
+			<div class="cliente-antiguo">
 
-			<form action="pagina.php" method="post">
-			
-				<label for="email">Email</label>  <br>		
-				<input id="email" type="e-mail" name="correo_electronico" value="" required> <br> <br>
+				<h2>Ya soy cliente</h2>
+
+				<form action="pagina.php" method="post">
 				
-				<label for="password">Password</label> <br>
-				<input type="password" name="contraseña" value="" required>  <br>
+					<label for="email">Email</label>  <br>		
+					<input id="email" type="e-mail" name="correo_electronico" value="" required> <br> <br>
+					
+					<label for="password">Password</label> <br>
+					<input type="password" name="contraseña" value="" required>  <br><br>
 
-				<a href="cambio-pswd.html">Olvidé mi password</a>
+					<a href="cambio-pswd.html">Olvidé mi password</a><br>
 
-				<button type=”submit”>Ingresar</button> <br>
+					<button type=”submit”>Ingresar</button> <br>
 
-	  		</form>
-	  		
-	  	</div> <!-- termina cliente-antiguo -->
+		  		</form>
+		  		
+		  	</div> <!-- termina cliente-antiguo -->
 
-		</div class="cliente-nuevo">
-			<h2>Soy nuevo</h2>
-			<ul>
-				<li>Crear órdenes</li>
-				<li>Registrarse para recibir novedades y promociones</li>
-				<li>Hacer pedidos especiales</li>
-			</ul>
-			<button type=”submit”>Crear cuenta</button> 
-		</div>
+			<div class="cliente-nuevo">
 
-	</div> <!-- termina container-sign-in -->
+				<h2>Soy nuevo</h2>
+
+				<form action="pagina.php" method="post">
+
+					<label for="nombre">Nombre </label>		
+					<input id="nombre" type="text" name="nombre" value="" required> <br> <br>
+
+					<label for="direccion">Dirección </label>  	
+					<input id="direccion" type="text" name="direccion" value="" required> <br> <br>
+				
+					<label for="email">Email </label> 	
+					<input id="email" type="e-mail" name="correo_electronico" value="" required> <br> <br>
+					
+					<label for="password">Password </label> 
+					<input type="password" name="contraseña" value="" required>  <br>	
+
+					<button type=”submit”>Crear cuenta</button> 
+				</form>
+
+			</div>
+
+		</div> <!-- termina container-sign-in -->
 	
 	</div>
 
