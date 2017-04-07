@@ -10,6 +10,11 @@ html, body, ul {
 
 }
 
+h1{
+	color:rgb(182,209,146);
+	display:block;
+}
+
 @font-face {
   font-family: "FontAwesome";
   src: url("fontawesome-webfont.woff");
@@ -68,7 +73,7 @@ container{
 }
 
 .bar-nav li{
-	flex-grow: 3;  
+	flex-grow: 10;  
 
 }
 
@@ -87,7 +92,6 @@ container{
 .icono{
 
 	flex-grow: 1;
-
   	font-family: "FontAwesome", sans-serif;
   	font-size: 100%;
 }
@@ -141,10 +145,11 @@ container{
 	align-items: flex-start;
 } 
 
-.frases h1{
+/*.frases h1{
 	color:rgb(182,209,146);
 	display:block;
 	}
+*/
 
 .frases img{
 	width:300px;
@@ -220,6 +225,51 @@ container{
     text-decoration: underline;
     color:#47473D;
 }
+
+
+.container_faq {
+	width:80%;
+	margin-left: 5%;
+}
+
+.question_list{
+	margin-left:20px;
+	text-decoration:none;
+}
+
+
+/* ----- Formulario de ingreso ------ */
+
+.container-formulario{
+	position: relative;
+    overflow: hidden;
+    max-width:80vw;
+    margin-left: 10%;
+}
+
+.sign-in-container{
+		
+		position: relative;
+        overflow: hidden;
+        max-width:80vw;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+}
+
+.cliente-antiguo, .cliente-nuevo{
+		border-style:solid;
+		border-color: #47473D; /* grey*/
+		width: 40%;
+		padding:20px;
+		position: relative;
+}
+
+
+
+
 
 
 
