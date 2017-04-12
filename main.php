@@ -13,27 +13,10 @@
 <body>
 	<div class="container">
 
-		<header class="main-header">
-				
-			<img src="images/logo.jpg" alt="logotipo" class="logo">			
-			
-			<nav class="main-nav">	
-				<ul class="bar-nav">
-					<li class="icono"><a href="main.html">&#xf015</a></li>
-					<li><a href="#">Productos</a></li>
-					<li><a href="#">Servicios</a></li>
-					<li><a href="#">Nosotros</a></li>
-					<li><a href="#">Contacto</a></li>
-					<li class="icono"><a href="faq.html">&#xf128</a></li>	
-					<li class="icono"><a href="formulario.html">&#xf007</a></li>	
-					<li class="icono"><a href="#">&#xf002</a></li>	
-					<li class="icono"><a href="#">&#xf07a</a></li>					
-				</ul>			
-			</nav>
-
-		</header>
-
-
+		<?php
+			include "header.html";
+		?>
+		
 		<div class="banner">
 			<img src="images/imagenBanner1.jpg" alt="foto">	
 			<img src="images/imagenBanner2.jpg" alt="foto">				
@@ -60,36 +43,30 @@
 		</div>
 			
 
-		<section class="main-promo">
-
+		<section class="main-images">
 			<article class="promotion" id="promo1">
 				<h2>Promoción de la semana</h2>
 				<img src="images/img-promo3.jpg" alt="foto" id="foto1">
 				<p>Aprovechá la temporada de frutillas!!!
 				   Tarta de frutillas: base sable cubierta de dulce de leche, crema y frutillas</p>				
 			</article>
-
 			<article class="promotion" id="promo2">
 				<h2>La foto del día</h2>
 				<img src="images/fotoDeldia.jpg" alt="foto">				
 				<p>Algo de lo que hicimos para hoy!</p>
 				<p>#marquise #lemonpie #tartadefrutilla #rogeles #postreenvasitos #bandejaminis #instacake #lovebaking</p>
 			</article>
-
 			<article class="promotion" id="promo3">
 				<h2>Novedad</h2>
 				<img src="images/img-promo1.jpg" alt="foto">
 				<p>Torta de Chocolate blanco: con chocolate Toblerone !</p>
 			</article>
-
 			<article class="promotion" id="promo4">
 				<h2>Destacado del mes</h2>
 				<img src="images/img-promo4.jpg" alt="foto">
 				<p>La vedette del mes fué el cheesecake con frutos rojos. Probalo! </p>
-			</article>	
-
+			</article>			
 		</section>
-
 
 		<footer class="main-footer">
 
@@ -103,7 +80,7 @@
 				</li>
 				<li><h3>Ayuda</h3>
 					<ul class="footer-links">
-						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="#">FAQ</a></li>
 						<li><a href="#">Mis pedidos</a></li>
 						<li><a href="#">Envios</a></li>
 					</ul>
@@ -118,6 +95,7 @@
 			</ul>
 
 		</footer>
+
 		
 	</div>
 
